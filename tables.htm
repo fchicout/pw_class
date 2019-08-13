@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+        table = tabela
+        th = table header (cabeçalho de tabela)
+        td = table definition (definição de célula da tabela)
+    -->
+    <table>
+        <tr>
+            <th>linha 1 coluna 1</th>
+            <th>linha 1 coluna 2</th>
+            <th>linha 1 coluna 3</th>
+        </tr>
+        <tr>
+            <td>linha 2 coluna 1</td>
+            <td>linha 2 coluna 2</td>
+            <td>linha 2 coluna 3</td>
+        </tr>
+    </table>
+
+    <!--
+        colspan = mesclagem por colunas
+    -->
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+
+    <!--
+        rowspan = mesclagem por linhas
+    -->
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
